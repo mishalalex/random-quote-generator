@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://picsum.photos/1500/2000?random');
+    background-size: cover;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px;
+    opacity: 0.8;
+    background-color: aliceblue;
+}
+
+.quote-item {
+    margin: 5px;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-self: normal;
+    margin: 10px;
+}
+
+.button {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.twitter-share-btn {
+    text-decoration: none;
+    color: black;
+}
+
+.twitter-share-btn:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+}
