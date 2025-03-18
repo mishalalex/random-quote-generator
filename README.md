@@ -26,3 +26,4 @@ A simple and elegant web application that generates random quotes using an exter
    ```bash
    git clone https://github.com/mishalalex/random-quote-generator.git
    cd random-quote-generator
+
